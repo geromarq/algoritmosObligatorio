@@ -11,19 +11,17 @@ struct nodoCola {
 	nodoCola(int dato, nodoCola* ant, nodoCola* sig) : dato(dato), ant(ant), sig(sig) {}
 };
 
-struct _representacionCola {
+struct _representacionColaInt {
 
 	nodoCola* ppio;
 	nodoCola* fin;
 	int largo;
 
-	_representacionCola() : largo(0), ppio(NULL), fin(NULL) {}
+	_representacionColaInt() : largo(0), ppio(NULL), fin(NULL) {}
 };
 
-typedef _representacionCola* ColaInt;
-
 ColaInt crearColaInt() {
-	return new _representacionCola();
+	return new _representacionColaInt();
 }
 
 
@@ -56,22 +54,23 @@ void desencolar(ColaInt& c) {
 }
 
 bool esVacia(ColaInt c) {
-	// NO IMPLEMENTADO
-	return true;
+	return c->largo == 0;
 }
 
 unsigned int cantidadElementos(ColaInt c) {
-	// NO IMPLEMENTADO
-	return 0;
+	return c->largo;
 }
 
 ColaInt clon(ColaInt c) {
-	// NO IMPLEMENTADO
-	return NULL;
+	ColaInt copia = crearColaInt();
+	for (nodoCola* it = c->ppio; it; it = it->sig) encolar(copia, it->dato);
+	return copia;
 }
 
 void destruir(ColaInt& c) {
-	// NO IMPLEMENTADO
+	while (!esVacia(c)) desencolar(c);
+	delete c;
+	c = nullptr;
 }
 
 #endif
