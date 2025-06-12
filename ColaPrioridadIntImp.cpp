@@ -4,14 +4,25 @@
 
 //Si necestita otra estructura se puede definir aqui
 
+struct nodoColaPI {                 
+	int dato;
+	int prioridad;
+	nodoColaPI* sig;
+	nodoColaPI(int d, int p) : dato(d), prioridad(p), sig(nullptr) {}
+};
+
 struct _representacionColaPrioridadInt {
-	// NO IMPLEMENTADO
+	nodoColaPI* ppio;          // primero en salir
+	unsigned int largo;    // elementos actuales
+	unsigned int cota;     // capacidad máx.
+
+	_representacionColaPrioridadInt(unsigned int k): ppio(nullptr), largo(0), cota(k) {
+	}
 };
 
 
 ColaPrioridadInt crearColaPrioridadInt(unsigned int cota) {
-	// NO IMPLEMENTADO
-	return NULL;
+	return new _representacionColaPrioridadInt();
 }
 
 void encolar(ColaPrioridadInt& c, int e, int p) {

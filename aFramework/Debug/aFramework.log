@@ -1,48 +1,11 @@
 ﻿  ColaArray.cpp
   ColaIntImp.cpp
   ColaPrioridadIntImp.cpp
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(23,30): error C2371: 'ColaInt': nueva definición; tipos básicos distintos
-      C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaInt.h(7,40):
-      vea la declaración de 'ColaInt'
-  
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(25,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(26,1): error C2059: error de sintaxis: '}'
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(26,1): error C2143: error de sintaxis: falta ';' delante de '}'
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(29,33): error C2143: error de sintaxis: falta ';' delante de '{'
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(29,33): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(41,9): error C2027: uso del tipo '_representacionColaInt' sin definir
-      C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaInt.h(6,8):
-      vea la declaración de '_representacionColaInt'
-  
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(45,22): error C2027: uso del tipo '_representacionColaInt' sin definir
-      C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaInt.h(6,8):
-      vea la declaración de '_representacionColaInt'
-  
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(46,2): error C2027: uso del tipo '_representacionColaInt' sin definir
-      C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaInt.h(6,8):
-      vea la declaración de '_representacionColaInt'
-  
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(46,12): error C2027: uso del tipo '_representacionColaInt' sin definir
-      C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaInt.h(6,8):
-      vea la declaración de '_representacionColaInt'
-  
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(48,2): error C2027: uso del tipo '_representacionColaInt' sin definir
-      C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaInt.h(6,8):
-      vea la declaración de '_representacionColaInt'
-  
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(49,7): error C2027: uso del tipo '_representacionColaInt' sin definir
-      C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaInt.h(6,8):
-      vea la declaración de '_representacionColaInt'
-  
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(50,3): error C2027: uso del tipo '_representacionColaInt' sin definir
-      C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaInt.h(6,8):
-      vea la declaración de '_representacionColaInt'
-  
-C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(53,3): error C2027: uso del tipo '_representacionColaInt' sin definir
-      C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaInt.h(6,8):
-      vea la declaración de '_representacionColaInt'
-  
   ConductorPrueba.cpp
+C:\Users\Geronimo\algoritmosObligatorio\ColaPrioridadIntImp.cpp(25,44): error C2512: '_representacionColaPrioridadInt::_representacionColaPrioridadInt': no appropriate default constructor available
+      C:\Users\Geronimo\algoritmosObligatorio\ColaPrioridadIntImp.cpp(25,44):
+      while trying to match the argument list '()'
+  
   ConductorPruebaObl2.cpp
   Defensa.cpp
   DiccionarioIntImp.cpp
@@ -59,9 +22,10 @@ C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(53,3): error C2027:
   ManejadorImpresionPrueba.cpp
   ManejadorSalidaPrueba.cpp
   MultisetIntImp.cpp
-  Generando código...
-  Compilando...
+  Generating Code...
+  Compiling...
   PilaIntImp.cpp
+C:\Users\Geronimo\algoritmosObligatorio\PilaIntImp.cpp(66,2): error C2143: syntax error: missing ';' before '}'
   Prueba.cpp
   PruebasAuxDefensa.cpp
   PruebasAuxEntrega.cpp
@@ -81,7 +45,7 @@ C:\Users\gmartinez\Desktop\2025s1_Ejercicios2\ColaIntImp.cpp(53,3): error C2027:
   PruebasTablaIntString.cpp
   SetIntImp.cpp
   TablaIntIntImp.cpp
-  Generando código...
-  Compilando...
+  Generating Code...
+  Compiling...
   TablaIntStringImp.cpp
-  Generando código...
+  Generating Code...
