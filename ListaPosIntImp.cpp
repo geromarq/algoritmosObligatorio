@@ -6,18 +6,15 @@
 
 struct nodoListaPos {
 	int dato;
-	int pos;
 	nodoListaPos* sig;
-	nodoListaPos* ant;
-	nodoListaPos(int dato, unsigned int pos) : dato(dato), pos(pos), sig(NULL), ant(NULL) {};
-	nodoListaPos(int dato, unsigned int pos, nodoListaPos* ant, nodoListaPos* sig) : dato(dato), pos(pos), sig(sig), ant(ant) {};
+	nodoListaPos(int dato) : dato(dato),sig(NULL){};
+	nodoListaPos(int dato, nodoListaPos* sig) : dato(dato),sig(sig){};
 };
 
 struct _representacionListaPosInt {
 	nodoListaPos* ppio;
-	nodoListaPos* fin;
-	int cant;
-	_representacionListaPosInt() : ppio(NULL), fin(NULL), cant(0) {};
+	int largo;
+	_representacionListaPosInt() : ppio(nullptr), largo(0) {}
 };
 
 ListaPosInt crearListaPosInt()
@@ -27,13 +24,23 @@ ListaPosInt crearListaPosInt()
 
 void agregar(ListaPosInt& l, int e, unsigned int pos)
 {	
-	nodoListaPos* nodo = new nodoListaPos(e, pos);
-	nodoListaPos* aux = l->ppio;
-
-	while (aux != NULL) {
-
+	if (pos > l->largo) {
+		pos = l->largo;
+	} else if (pos == 0) {
+		l->ppio = new nodoListaPos(e, l->ppio);
+		l->largo+=1;
+		return;
 	}
-	
+
+	nodoListaPos* aux = l->ppio;
+	int i = l->largo;
+	while (i < pos) {
+		aux = aux->sig;
+		i++;
+	}
+	aux->sig = new nodoListaPos(e, aux->sig);
+	l->largo += 1;
+
 }
 
 void borrar(ListaPosInt& l, unsigned int pos)
@@ -43,20 +50,21 @@ void borrar(ListaPosInt& l, unsigned int pos)
 
 int elemento(ListaPosInt l, unsigned int pos)
 {
-	//IMPLEMENTAR SOLUCION
-	return 0;
+	nodoListaPos* aux = l->ppio;
+	for (int i = 0;i < pos;i++) {
+		aux = aux->sig;
+	}
+	return aux->dato;
 }
 
 bool esVacia(ListaPosInt l)
 {
-	//IMPLEMENTAR SOLUCION
-	return true;
+	return l->largo == 0;
 }
 
 unsigned int cantidadElementos(ListaPosInt l)
 {
-	//IMPLEMENTAR SOLUCION
-	return 0;
+	return l->largo;
 }
 
 ListaPosInt clon(ListaPosInt l)
