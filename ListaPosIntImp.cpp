@@ -45,7 +45,22 @@ void agregar(ListaPosInt& l, int e, unsigned int pos)
 
 void borrar(ListaPosInt& l, unsigned int pos)
 {
-	//IMPLEMENTAR SOLUCION
+	if (pos >= l->largo) return;
+	if (pos == 0) {                       // quitar primero
+		nodoListaPos* borrar = l->ppio;
+		l->ppio = l->ppio->sig;
+		delete borrar;
+	}
+	else {
+		nodoListaPos* aux = l->ppio;
+		for (unsigned int i = 0; i + 1 < pos;i++) {
+			aux = aux->sig;
+		}
+		nodoListaPos* aborrar = aux->sig;
+		aux->sig = aux->sig->sig;
+		delete aborrar;
+	}
+	l->largo -= 1;
 }
 
 int elemento(ListaPosInt l, unsigned int pos)
