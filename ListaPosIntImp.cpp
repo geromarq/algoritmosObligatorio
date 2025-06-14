@@ -23,30 +23,29 @@ ListaPosInt crearListaPosInt()
 }
 
 void agregar(ListaPosInt& l, int e, unsigned int pos)
-{	
-	if (pos > l->largo) {
+{
+	if (pos >= l->largo) {
 		pos = l->largo;
-	} else if (pos == 0) {
+	}
+	if (pos == 0 || l->ppio == NULL) {
 		l->ppio = new nodoListaPos(e, l->ppio);
-		l->largo+=1;
+		++l->largo;
 		return;
 	}
-
 	nodoListaPos* aux = l->ppio;
-	int i = l->largo;
+	unsigned int i = 1;
 	while (i < pos) {
 		aux = aux->sig;
-		i++;
+		++i;
 	}
 	aux->sig = new nodoListaPos(e, aux->sig);
-	l->largo += 1;
-
+	++l->largo;
 }
 
 void borrar(ListaPosInt& l, unsigned int pos)
 {
 	if (pos >= l->largo) return;
-	if (pos == 0) {                       // quitar primero
+	if (pos == 0) {                       
 		nodoListaPos* borrar = l->ppio;
 		l->ppio = l->ppio->sig;
 		delete borrar;
@@ -84,13 +83,20 @@ unsigned int cantidadElementos(ListaPosInt l)
 
 ListaPosInt clon(ListaPosInt l)
 {
-	//IMPLEMENTAR SOLUCION
-	return NULL;
+	ListaPosInt clon = crearListaPosInt();
+	int pos = 0;
+	for (nodoListaPos* nod = l->ppio; nod != NULL;nod = nod->sig) {
+		agregar(clon, nod->dato,pos);
+		pos++;
+	}
+	return clon;
 }
 
 void destruir(ListaPosInt& l)
 {
-	//IMPLEMENTAR SOLUCION
+	while (!esVacia(l)) {
+		borrar(l, 0);
+	}
 }
 
 

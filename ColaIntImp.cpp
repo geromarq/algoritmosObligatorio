@@ -68,7 +68,10 @@ ColaInt clon(ColaInt c) {
 }
 
 void destruir(ColaInt& c) {
-	while (!esVacia(c)) desencolar(c);
+	while (!esVacia(c))
+	{
+		desencolar(c);
+	}
 	delete c;
 	c = nullptr;
 }

@@ -57,7 +57,7 @@ PilaInt clon(PilaInt p) {
 		int x = top(p);
 		pop(p);
 		push(aux, x);
-	}//n
+	}
 
 
 	while (!esVacia(aux)) {
@@ -66,9 +66,7 @@ PilaInt clon(PilaInt p) {
 
 		push(p, x);       
 		push(clon, x);   
-	}//n
-
-	//2*n
+	}
 	destruir(aux);        
 	return clon;
 
