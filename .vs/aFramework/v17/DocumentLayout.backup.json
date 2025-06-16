@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gmartinez\\repoGit\\obliAlgo\\",
+  "WorkspaceRootPath": "C:\\Users\\Geronimo\\algoritmosObligatorio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ListaPosIntImp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|C:\\Users\\Geronimo\\algoritmosObligatorio\\ListaPosIntImp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|solutionrelative:ListaPosIntImp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ColaIntImp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|solutionrelative:ColaIntImp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ListaPosInt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|C:\\Users\\Geronimo\\algoritmosObligatorio\\ListaPosInt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|solutionrelative:ListaPosInt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ColaInt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|C:\\Users\\Geronimo\\algoritmosObligatorio\\ColaIntImp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|solutionrelative:ColaIntImp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|C:\\Users\\Geronimo\\algoritmosObligatorio\\ColaInt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{18640DB1-7DDC-41D4-94DE-010CF88C0BA7}|aFramework.vcxproj|solutionrelative:ColaInt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ListaPosIntImp.cpp",
-              "DocumentMoniker": "C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ListaPosIntImp.cpp",
+              "DocumentMoniker": "C:\\Users\\Geronimo\\algoritmosObligatorio\\ListaPosIntImp.cpp",
               "RelativeDocumentMoniker": "ListaPosIntImp.cpp",
-              "ToolTip": "C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ListaPosIntImp.cpp",
-              "RelativeToolTip": "ListaPosIntImp.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Geronimo\\algoritmosObligatorio\\ListaPosIntImp.cpp*",
+              "RelativeToolTip": "ListaPosIntImp.cpp*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-12T05:53:42.122Z",
               "EditorCaption": ""
@@ -49,13 +49,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ListaPosInt.h",
-              "DocumentMoniker": "C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ListaPosInt.h",
+              "DocumentMoniker": "C:\\Users\\Geronimo\\algoritmosObligatorio\\ListaPosInt.h",
               "RelativeDocumentMoniker": "ListaPosInt.h",
-              "ToolTip": "C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ListaPosInt.h",
+              "ToolTip": "C:\\Users\\Geronimo\\algoritmosObligatorio\\ListaPosInt.h",
               "RelativeToolTip": "ListaPosInt.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-12T20:21:51.302Z",
               "EditorCaption": ""
@@ -69,9 +69,9 @@
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
         "Id": "d3b933a1-bfb2-46dd-93d9-e442f031e0f7",
-        "Display": 0,
-        "X": 358,
-        "Y": 185,
+        "Display": 1,
+        "X": 204,
+        "Y": 75,
         "Width": 1074,
         "Height": 903,
         "WindowState": 2
@@ -83,11 +83,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ColaIntImp.cpp",
-              "DocumentMoniker": "C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ColaIntImp.cpp",
+              "DocumentMoniker": "C:\\Users\\Geronimo\\algoritmosObligatorio\\ColaIntImp.cpp",
               "RelativeDocumentMoniker": "ColaIntImp.cpp",
-              "ToolTip": "C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ColaIntImp.cpp",
+              "ToolTip": "C:\\Users\\Geronimo\\algoritmosObligatorio\\ColaIntImp.cpp",
               "RelativeToolTip": "ColaIntImp.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAEsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -104,11 +104,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ColaInt.h",
-              "DocumentMoniker": "C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ColaInt.h",
+              "DocumentMoniker": "C:\\Users\\Geronimo\\algoritmosObligatorio\\ColaInt.h",
               "RelativeDocumentMoniker": "ColaInt.h",
-              "ToolTip": "C:\\Users\\gmartinez\\repoGit\\obliAlgo\\ColaInt.h",
+              "ToolTip": "C:\\Users\\Geronimo\\algoritmosObligatorio\\ColaInt.h",
               "RelativeToolTip": "ColaInt.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-27T16:02:44.766Z",
               "EditorCaption": ""
