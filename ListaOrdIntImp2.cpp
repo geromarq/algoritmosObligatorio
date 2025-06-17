@@ -23,11 +23,14 @@ struct _representacionListaOrdInt {
 ///hacerlo para abb
 
 ListaOrdInt crearListaOrdInt() {
-	// NO IMPLEMENTADO
 	return new _representacionListaOrdInt();
+}
 
 void agregar(ListaOrdInt& l, int e) {
-	// NO IMPLEMENTADO
+	nodoLista* nodo = new nodoLista(e, 1);
+	if (!l) {
+		
+	}
 }
 
 void borrarMinimo(ListaOrdInt& l) {

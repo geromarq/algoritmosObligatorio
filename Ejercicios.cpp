@@ -50,6 +50,7 @@ bool EstaContenida(PilaInt p1, PilaInt p2)
 		pop(copiaP1);
 		i--;
 	}
+
 	destruir(aux);
 	destruir(copiaP1);
 	destruir(copiaP2);
@@ -70,7 +71,6 @@ MultisetInt Xor(MultisetInt m1, MultisetInt m2)
 }
 
 ColaPrioridadInt MenorPrioridad(ColaPrioridadInt c) {
-	//IMPLEMENTAR SOLUCION
-	return NULL;
+	if()
 }
 
