@@ -6,14 +6,14 @@ struct nodoPila {
 	int dato;          
 	nodoPila* sig;     
 
-	nodoPila(int d) : dato(d), sig(nullptr) {}
+	nodoPila(int d) : dato(d), sig(NULL) {}
 };
 
 struct _representacionPilaInt {
 	nodoPila* top;        
 	unsigned int largo;
 
-	_representacionPilaInt() : top(nullptr), largo(0) {}
+	_representacionPilaInt() : top(NULL), largo(0) {}
 };
 
 typedef _representacionPilaInt* Pila;

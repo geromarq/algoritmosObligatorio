@@ -2,14 +2,29 @@
 
 #ifdef LISTA_ORD_INT_IMP_2
 
-struct _representacionListaOrdInt {
-	// NO IMPLEMENTADO
+
+struct nodoLista {
+	int dato;
+	int repeticiones;
+	nodoLista* sig;
+
+	nodoLista(int dato, int rep) : dato(dato), repeticiones(rep), sig(NULL){}
 };
+
+struct _representacionListaOrdInt {
+	nodoLista* ppio;         
+	nodoLista* fin;          
+	unsigned int largo;        
+
+	_representacionListaOrdInt(): ppio(NULL), fin(NULL), largo(0) {}
+};
+
+
+///hacerlo para abb
 
 ListaOrdInt crearListaOrdInt() {
 	// NO IMPLEMENTADO
-	return NULL;
-}
+	return new _representacionListaOrdInt();
 
 void agregar(ListaOrdInt& l, int e) {
 	// NO IMPLEMENTADO
